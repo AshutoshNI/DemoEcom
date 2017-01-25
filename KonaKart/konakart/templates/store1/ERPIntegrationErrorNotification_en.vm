@@ -1,0 +1,17 @@
+XML Message Exception
+<html>
+	<head>
+		<title>XML Message Exception</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<table border="0" width="100%" class="font">
+		<table border="0" width="100%" class="font">
+			<tr>
+				<td>
+					KonaKart was not able to import the messages recently sent. Details are in the attached log.
+				</td>
+			</tr>
+		</table>
+ 	</body> 
+</html>

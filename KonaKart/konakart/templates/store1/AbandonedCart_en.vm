@@ -1,0 +1,80 @@
+A coupon code for you
+<html>
+	<head>
+		<title>New Password</title>
+		<style type="text/css">
+			.font {font-family: Arial, Helvetica, Sans-Serif;}
+			.title{font-size: 160%;}
+			.dataCell { font-family: Arial, Helvetica, Sans-Serif; background-color: #E1E7F7 }
+		</style>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<table border="0" width="100%" class="font">
+			<tr>
+				<td class="title">
+					<a href="http://www.konakart.com">
+						<img src="${imageBaseUrl}/logo.png" border="0" alt="KonaKart v${KonaKartVersion}"/>
+					</a>
+				</td>
+				<td class="title">
+					 A coupon code for you
+				</td>
+			</tr>
+			<tr><td colspan = "2">
+			<table border="0" width="100%" class="dataCell">
+			<tr>
+				<td width="100%"  colspan="2">
+					Dear $cust.getFirstName() $cust.getLastName(),
+				</td>
+			</tr>
+			<tr>
+				<td width="100%"  colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" colspan="2">
+				    To thank you for your loyalty we are sending you a coupon code $obj1 which will give you a 15% discount off your next purchase. 
+				</td>
+			</tr>
+			<tr>
+				<td width="100%"  colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td width="100%" colspan="2">
+				    Be quick because the coupon will expire in $obj2 days !
+				</td>
+			</tr>
+			<tr>
+				<td width="100%"  colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td width="100%"  colspan="2">
+					Best regards,
+				</td>
+			</tr>
+			<tr>
+				<td width="100%"  colspan="2">
+					&nbsp;
+				</td>
+			</tr>
+			<tr>
+				<td width="100%"  colspan="2">
+					&nbsp;&nbsp;$storeOwner
+				</td>
+			</tr>
+			<tr>
+				<td width="100%"  colspan="2">
+					&nbsp;&nbsp;$storeName
+				</td>
+			</tr>
+			</table>
+			</td></tr>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+Weleda Invoice
+<html>
+	<head>
+		<title>Order Invoice</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	</head>
+	<body>
+		<table border="0" width="100%" class="font">
+			<tr>
+				<td class="title">
+					 $storeName - Invoice Attached
+				</td>
+			</tr>
+		</table>
+		<table border="0" width="100%" class="font">
+			<tr>
+				<td>
+					Dear $customer.getFirstName() $customer.getLastName(), your invoice is attached to this email.
+				</td>
+			</tr>
+		</table>
+ 	</body> 
+</html>
